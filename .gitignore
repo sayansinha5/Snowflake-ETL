@@ -1,0 +1,28 @@
+
+---
+
+## ✅ `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.env
+
+# Env
+.env
+
+# Snowflake local stage cache (if any)
+*.log
+*.bak
+
+# Streamlit
+.streamlit/
+
+# Mac / Windows / Linux
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/

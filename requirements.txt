@@ -1,0 +1,5 @@
+streamlit
+pandas
+snowflake-snowpark-python
+python-dotenv
+pyarrow<19.0.0
