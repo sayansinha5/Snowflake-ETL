@@ -3,8 +3,6 @@
 This is a minimal ETL pipeline built with **Snowflake**, **Python (Snowpark)**, and **Streamlit**.
 It allows you to upload a CSV file, load it into Snowflake, perform basic data cleaning using Snowpark, and view the results—all via a Streamlit UI.
 
----
-
 ## Features
 
 - Upload a CSV file via the Streamlit interface
@@ -22,7 +20,7 @@ It allows you to upload a CSV file, load it into Snowflake, perform basic data c
 - Snowflake account (with database/schema/warehouse)
 - Install Python dependencies
 
-# Quickstart Project
+## Quickstart Project
 ### Activate virtual environment
 ```
 python -m venv venv
@@ -57,4 +55,3 @@ streamlit run main.py
 ```
 streamlit run main.py
 ```
-
